@@ -1,6 +1,6 @@
 cask "snip-snap" do
-  version "0.3.0"
-  sha256 "3625b28b2034b7e52fdcd8e6289ae3baec5bcb79f99f67666df7dc7dd929112f"
+  version "0.4.0"
+  sha256 "6ade83b3109d942c6a55d6a1741e1dff91a6c3809e31bbd93f5bd0838e39487c"
 
   url "https://github.com/sreejithraman/snip-snap/releases/download/v#{version}/Snip-Snap-#{version}.zip"
   name "Snip Snap"
