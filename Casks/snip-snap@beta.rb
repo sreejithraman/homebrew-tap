@@ -1,8 +1,8 @@
 cask "snip-snap@beta" do
-  version "0.5.0-beta.36"
-  sha256 "3f757e48784001e24539723d7752f1144d1a8d2b1119dfb89f73c962bdcfc77f"
+  version "0.5.0-beta.37"
+  sha256 "b88bd27e7a52dd6ea12fed402c8182bdb6bfba24500c2e0ffcc68ffac3565323"
 
-  url "https://github.com/sreejithraman/snip-snap/releases/download/v0.5.0-beta.36/Snip-Snap-0.5.0.zip"
+  url "https://github.com/sreejithraman/snip-snap/releases/download/v0.5.0-beta.37/Snip-Snap-0.5.0.zip"
   name "Snip Snap Beta"
   desc "Keep saved snips ready to use later"
   homepage "https://sree.world/snip-snap"
