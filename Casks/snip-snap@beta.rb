@@ -1,8 +1,8 @@
 cask "snip-snap@beta" do
-  version "0.5.1-beta.85"
-  sha256 "2640d41d106c2bd78b929d4b45dd22549a233b23e67d1e9c0c99f816823a13e6"
+  version "0.5.1-beta.96"
+  sha256 "39ff5d46459e3531045dfee6ad9c8e385fa8606739f2b578ac91d09852cfa3e1"
 
-  url "https://github.com/sreejithraman/snip-snap/releases/download/v0.5.1-beta.85/Snip-Snap-0.5.1.zip"
+  url "https://github.com/sreejithraman/snip-snap/releases/download/v0.5.1-beta.96/Snip-Snap-0.5.1.zip"
   name "Snip Snap Beta"
   desc "Keep saved snips ready to use later"
   homepage "https://sree.world/snip-snap"
@@ -12,6 +12,7 @@ cask "snip-snap@beta" do
   depends_on macos: :tahoe
 
   app "Snip Snap.app"
+  binary "#{appdir}/Snip Snap.app/Contents/MacOS/snipsnap"
 
   zap trash: [
     "~/Library/Caches/world.sree.snipsnap",
