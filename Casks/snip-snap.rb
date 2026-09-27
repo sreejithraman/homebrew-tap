@@ -1,6 +1,6 @@
 cask "snip-snap" do
-  version "0.5.0"
-  sha256 "804da8952e7ab4c853e05a67082c351bed8241abca44308087d9c853621dcbc9"
+  version "0.5.1"
+  sha256 "2a480658457ac5a5640592d362c72e0187e7639cee8e4a5a1096f2f547df453f"
 
   url "https://github.com/sreejithraman/snip-snap/releases/download/v#{version}/Snip-Snap-#{version}.zip"
   name "Snip Snap"
@@ -11,6 +11,7 @@ cask "snip-snap" do
   depends_on macos: :tahoe
 
   app "Snip Snap.app"
+  binary "#{appdir}/Snip Snap.app/Contents/MacOS/snipsnap"
 
   zap trash: [
     "~/Library/Caches/world.sree.snipsnap",
