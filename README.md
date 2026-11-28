@@ -1,12 +1,35 @@
-# Snip Snap Homebrew tap
+# Sreejith Raman's Homebrew Tap
 
-The Snip Snap cask will appear here with the first signed release. Users will then
-install it with:
+Homebrew casks for macOS apps by Sreejith Raman.
 
 ```sh
 brew tap sreejithraman/tap
-brew install --cask snip-snap
 ```
 
-See [sree.world/snip-snap](https://sree.world/snip-snap) for app details and release
-status.
+## Botto
+
+Native Mac companion and local T3 engine host for Botto (Apple Silicon, macOS 15+).
+
+- **Beta channel:**
+  ```sh
+  brew install --cask sreejithraman/tap/botto@beta
+  ```
+- **Stable channel** (once promoted):
+  ```sh
+  brew install --cask sreejithraman/tap/botto
+  ```
+
+See [sreejithraman/Botto](https://github.com/sreejithraman/Botto) for details and release notes.
+
+## Snip Snap
+
+- **Stable channel:**
+  ```sh
+  brew install --cask sreejithraman/tap/snip-snap
+  ```
+- **Beta channel:**
+  ```sh
+  brew install --cask sreejithraman/tap/snip-snap@beta
+  ```
+
+See [sree.world/snip-snap](https://sree.world/snip-snap) for app details and release status.
